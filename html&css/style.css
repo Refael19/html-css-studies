@@ -1,0 +1,91 @@
+.header {
+    background-color: green;
+    font-size: x-large;
+    display: flex;
+    padding: 15px 10%;
+    justify-content: space-between;
+}
+
+.home {
+    background-color: antiquewhite;
+    font-size: x-large;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    background-color: antiquewhite;
+    padding: 80px 10%;
+    padding-top: 0;
+    display: flex;
+    gap: 10%;
+}
+
+.projects {
+    background-color: rgb(196, 191, 191);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 10%;
+}
+
+.achivements {
+    background-color: black;
+    color: white;
+    padding: 80px 10%;
+}
+.contact{
+    background-color: rgb(197, 206, 206);
+    padding: 80px 10%;
+}
+
+
+
+.underline-green::after {
+    content: '';
+    display: block;
+    width: 50px;
+    left: 35%;
+    height: 2px;
+    background-color: green;
+    margin: auto;
+}
+
+.underline-black::after {
+    content: '';
+    display: block;
+    width: 50px;
+    left: 35%;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    margin-bottom: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    padding: 80px;
+    padding-top: 0;
+    gap: 20px;
+    max-width: 90%;
+}
+label{
+    margin-right: 10px;
+}
+button{
+    width: 100px;
+    border-radius: 15px;
+    margin: auto;
+}
